@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply transition-colors duration-200;
+  }
+}
+
+@layer components {
+  .mobile-menu {
+    @apply fixed inset-0 bg-white dark:bg-gray-900 z-50 transform transition-transform duration-300;
+  }
+
+  .mobile-menu.open {
+    @apply translate-x-0;
+  }
+
+  .mobile-menu.closed {
+    @apply translate-x-full;
+  }
+}
+
+/* Mobile-first responsive design */
+@media (max-width: 640px) {
+  .container {
+    @apply px-4;
+  }
+
+  h1 {
+    @apply text-3xl;
+  }
+
+  h2 {
+    @apply text-2xl;
+  }
+
+  .section-padding {
+    @apply py-12;
+  }
+}
+
+/* Dark mode transitions */
+.dark {
+  color-scheme: dark;
+}
+
+* {
+  @apply transition-colors duration-200;
+}
