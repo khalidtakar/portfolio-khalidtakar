@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Khalid Takar Portfolio
 
-## Getting Started
+A modern, responsive personal portfolio website showcasing my projects, skills, education, and experience. Built with React, TypeScript, and Tailwind CSS.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Responsive Design**: Looks great on all devices
+- **Dark Mode**: Toggle between light and dark themes
+- **Project Gallery**: Interactive project cards with images and video demos
+- **Skills & Certifications**: Visual display of technical skills and awards
+- **Timeline**: Chronological journey of education and work experience
+- **Contact Form**: Easy way for visitors to get in touch
+- **Download CV**: Button to download a PDF version of my CV
+
+## 🛠️ Tech Stack
+
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/)
+- [Framer Motion](https://www.framer.com/motion/) (animations)
+
+## 📦 Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/khalidtakar/portfolio-khalidtakar.git
+   cd portfolio-khalidtakar
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+4. **Open in your browser:**
+   Visit [http://localhost:5173](http://localhost:5173)
+
+## 🌐 Deployment
+
+This site is automatically deployed to **GitHub Pages** using GitHub Actions. After pushing to the `main` branch, your site will be live at:
+
+```
+https://khalidtakar.github.io/portfolio-khalidtakar/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📁 Project Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- `src/components/` — React components for each section
+- `public/images/` — Project and profile images
+- `public/cv/` — CV PDF file
+- `public/videos/` — (Local only) Project demo videos (not tracked in git)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ⚠️ Large Files
 
-## Learn More
+> **Note:** Large video files are not tracked in this repository. For live demos, use YouTube/Vimeo links or keep videos local for development.
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ Credits
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Built and designed by **Khalid Takar**
+- Inspired by modern portfolio templates and best practices
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📬 Contact
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Feel free to reach out via the contact form on the site or connect with me on [LinkedIn](https://www.linkedin.com/in/khalidtakar/) or [GitHub](https://github.com/khalidtakar).
