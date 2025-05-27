@@ -21,7 +21,7 @@ export const Introduction = () => {
         <div className="max-w-3xl mx-auto text-center">
           <div className="bg-white dark:bg-gray-800 rounded-lg shadow-sm p-12">
             <img
-              src="/images/khalid1.jpg"
+              src={`${import.meta.env.BASE_URL}images/khalid1.jpg`}
               alt="Khalid Takar profile"
               className="mx-auto mb-6 rounded-full shadow-lg w-32 h-32 object-cover"
             />

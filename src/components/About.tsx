@@ -67,7 +67,7 @@ export const About = () => {
           </div>
           <div className="relative">
             <img
-              src="/images/khalid1.jpg"
+              src={`${import.meta.env.BASE_URL}images/khalid1.jpg`}
               alt="Khalid Takar profile"
               className="rounded-lg shadow-xl"
             />

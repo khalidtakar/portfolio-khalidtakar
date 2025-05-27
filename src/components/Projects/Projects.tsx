@@ -11,7 +11,7 @@ const projects: Project[] = [
     title: "TakaReview - Sentiment Analysis Dashboard",
     description: "A powerful web-based sentiment analysis dashboard designed for content creators to analyse audience reactions across social media platforms.",
     longDescription: "A web-based dashboard for sentiment analysis across social media platforms, built with Python Flask, CSS, HTML, and JavaScript.",
-    coverImage: "/images/takareview.png",
+    coverImage: `${import.meta.env.BASE_URL}images/takareview.png`,
     tags: ["Python", "Flask", "Dashboard"],
     details: {
       challenge: "Analyzing large volumes of social media data.",
@@ -20,23 +20,23 @@ const projects: Project[] = [
     },
     technologies: ["Python" , "Flask", "CSS", "HTML", "JavaScript"],
     icons: {
-      main: "/images/takareview.png",
+      main: `${import.meta.env.BASE_URL}images/takareview.png`,
       tech: [
-        "/icons-correct/python.svg",
-        "/icons-correct/flask.svg",
-        "/icons-correct/css3.svg",
-        "/icons-correct/html5.svg",
-        "/icons-correct/javascript.svg"
+        `${import.meta.env.BASE_URL}icons-correct/python.svg`,
+        `${import.meta.env.BASE_URL}icons-correct/flask.svg`,
+        `${import.meta.env.BASE_URL}icons-correct/css3.svg`,
+        `${import.meta.env.BASE_URL}icons-correct/html5.svg`,
+        `${import.meta.env.BASE_URL}icons-correct/javascript.svg`
       ]
     },
-    video: "/videos/project demostration video.mkv",
+    video: `${import.meta.env.BASE_URL}videos/project demostration video.mkv`,
   },
   {
     id: 2,
     title: "StreamLine Project",
     description: "Developed a responsive SaaS landing page using Next.js, React, TypeScript, and Tailwind CSS, implementing modern UI/UX design principles.",
     longDescription: "A responsive SaaS landing page developed using Next.js, React, TypeScript, and Tailwind CSS, focusing on modern UI/UX design principles.",
-    coverImage: "/images/streamline.png",
+    coverImage: `${import.meta.env.BASE_URL}images/streamline.png`,
     tags: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
     details: {
       challenge: "Creating a responsive and visually appealing landing page.",
@@ -45,22 +45,22 @@ const projects: Project[] = [
     },
     technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
     icons: {
-      main: "/images/streamline.png",
+      main: `${import.meta.env.BASE_URL}images/streamline.png`,
       tech: [
-        "/icons-correct/nextdotjs.svg",
-        "/icons-correct/react.svg",
-        "/icons-correct/typescript.svg",
-        "/icons-correct/tailwindcss.svg"
+        `${import.meta.env.BASE_URL}icons-correct/nextdotjs.svg`,
+        `${import.meta.env.BASE_URL}icons-correct/react.svg`,
+        `${import.meta.env.BASE_URL}icons-correct/typescript.svg`,
+        `${import.meta.env.BASE_URL}icons-correct/tailwindcss.svg`
       ]
     },
-    video: "/videos/streamline-website.mkv",
+    video: `${import.meta.env.BASE_URL}videos/streamline-website.mkv`,
   },
   {
     id: 3,
     title: "Lancaster Booking Project",
     description: "Created a full-stack booking system and restaurant homepage using PHP, MySQL, JavaScript, and XAMPP.",
     longDescription: "A full-stack booking system and restaurant homepage created using PHP, MySQL, JavaScript, and XAMPP.",
-    coverImage: "/images/lancaster-booking.png",
+    coverImage: `${import.meta.env.BASE_URL}images/lancaster-booking.png`,
     tags: ["PHP", "MySQL", "JavaScript", "XAMPP"],
     details: {
       challenge: "Developing a robust booking system and restaurant homepage.",
@@ -69,22 +69,22 @@ const projects: Project[] = [
     },
     technologies: ["PHP", "MySQL", "JavaScript", "XAMPP"],
     icons: {
-      main: "/images/lancaster-booking.png",
+      main: `${import.meta.env.BASE_URL}images/lancaster-booking.png`,
       tech: [
-        "/icons-correct/php.svg",
-        "/icons-correct/mysql.svg",
-        "/icons-correct/javascript.svg",
-        "/icons-correct/xampp.svg"
+        `${import.meta.env.BASE_URL}icons-correct/php.svg`,
+        `${import.meta.env.BASE_URL}icons-correct/mysql.svg`,
+        `${import.meta.env.BASE_URL}icons-correct/javascript.svg`,
+        `${import.meta.env.BASE_URL}icons-correct/xampp.svg`
       ]
     },
-    video: "/videos/web-demo.mp4",
+    video: `${import.meta.env.BASE_URL}videos/web-demo.mp4`,
   },
   {
     id: 4,
     title: "CampusDine – UX Research & Mobile App Prototype (2025)",
     description: "Designed and evaluated a mobile app aimed at improving the campus dining experience using a user-centred design approach. Conducted user interviews and observations, developed personas, created a current user journey map, and produced annotated wireframes and storyboards. Completed a full usability testing brief.",
     longDescription: "Designed and evaluated a mobile app aimed at improving the campus dining experience using a user-centred design approach. Conducted user interviews and observations, developed personas, created a current user journey map, and produced annotated wireframes and storyboards. Completed a full usability testing brief.",
-    coverImage: "/images/WireFrames-total.png",
+    coverImage: `${import.meta.env.BASE_URL}images/WireFrames-total.png`,
     tags: ["UX Research", "Mobile App Prototype", "User-Centred Design"],
     details: {
       challenge: "Improving the campus dining experience through user-centred design.",
@@ -93,23 +93,23 @@ const projects: Project[] = [
     },
     technologies: ["Microsoft Office Suite", "Figma", "Miro", "Motiff", "Lucidchart"],
     icons: {
-      main: "/images/WireFrames-total.png",
+      main: `${import.meta.env.BASE_URL}images/WireFrames-total.png`,
       tech: [
-        "/icons/msoffice.svg",
-        "/icons-correct/figma.svg",
-        "/icons-correct/miro.svg",
-        "/icons/motiff.svg",
-        "/icons/lucidchart.svg"
+        `${import.meta.env.BASE_URL}icons/msoffice.svg`,
+        `${import.meta.env.BASE_URL}icons-correct/figma.svg`,
+        `${import.meta.env.BASE_URL}icons-correct/miro.svg`,
+        `${import.meta.env.BASE_URL}icons/motiff.svg`,
+        `${import.meta.env.BASE_URL}icons/lucidchart.svg`
       ]
     },
-    video: "/videos/UX-project.mkv",
+    video: `${import.meta.env.BASE_URL}videos/UX-project.mkv`,
   },
   {
     id: 5,
     title: "Java Game Project",
     description: "Created a 2D game for 4-month coursework based on my favourite Anime character from Bleach.",
     longDescription: "Created a 2D game for 4-month coursework based on my favourite Anime character from Bleach.",
-    coverImage: "/images/javagame.png",
+    coverImage: `${import.meta.env.BASE_URL}images/javagame.png`,
     tags: ["Java", "Game Development", "Object-Oriented Programming"],
     details: {
       challenge: "Developing a 2D game from scratch.",
@@ -118,17 +118,21 @@ const projects: Project[] = [
     },
     technologies: ["Java", "Game Development", "Object-Oriented Programming"],
     icons: {
-      main: "/images/javagame.png",
-      tech: ["/icons/java.svg", "/icons/gamedev.svg", "/icons/oop.svg"]
+      main: `${import.meta.env.BASE_URL}images/javagame.png`,
+      tech: [
+        `${import.meta.env.BASE_URL}icons/java.svg`,
+        `${import.meta.env.BASE_URL}icons/gamedev.svg`,
+        `${import.meta.env.BASE_URL}icons/oop.svg`
+      ]
     },
-    video: "/videos/java-game.mp4",
+    video: `${import.meta.env.BASE_URL}videos/java-game.mp4`,
   },
   {
     id: 6,
     title: "SQL Project",
     description: "Created a database for 1-month coursework on the 20/21 Champions League tournament.",
     longDescription: "Created a database for 1-month coursework on the 20/21 Champions League tournament.",
-    coverImage: "/images/sql-script.png",
+    coverImage: `${import.meta.env.BASE_URL}images/sql-script.png`,
     tags: ["SQL", "Database Design", "Data Analysis"],
     details: {
       challenge: "Designing and managing a database for a specific project.",
@@ -137,10 +141,14 @@ const projects: Project[] = [
     },
     technologies: ["SQL", "Database Design", "Data Analysis"],
     icons: {
-      main: "/images/sql-script.png",
-      tech: ["/icons-correct/mysql.svg", "/icons/databasedesign.svg", "/icons/dataanalysis.svg"]
+      main: `${import.meta.env.BASE_URL}images/sql-script.png`,
+      tech: [
+        `${import.meta.env.BASE_URL}icons-correct/mysql.svg`,
+        `${import.meta.env.BASE_URL}icons/databasedesign.svg`,
+        `${import.meta.env.BASE_URL}icons/dataanalysis.svg`
+      ]
     },
-    video: "/videos/SQL Project.mp4",
+    video: `${import.meta.env.BASE_URL}videos/SQL Project.mp4`,
   }
 ];
 
