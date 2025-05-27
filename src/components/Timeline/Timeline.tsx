@@ -62,7 +62,7 @@ const experiences = [
     company: "Ersan & Co Solicitors Ltd | London",
     period: "Jun 2018 - Jul 2018",
     description: [
-      "Undertook initial work experience to learn how to become responsible and organized by sorting out folders, organizing bank statements, filing, and learnt how to print and scan from a printer.",
+      "Undertook initial work experience to learn how to become responsible and organised by sorting out folders, organising bank statements, filing, and learnt how to print and scan from a printer.",
       "Acknowledged how to be a team member and fit in unfamiliar surroundings.",
       "Learnt presentation skills and watched how a workplace functions by observing other people's tasks."
     ]

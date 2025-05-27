@@ -29,7 +29,7 @@ const projects: Project[] = [
         `${import.meta.env.BASE_URL}icons-correct/javascript.svg`
       ]
     },
-    video: `${import.meta.env.BASE_URL}videos/project demostration video.mkv`,
+    video: `${import.meta.env.BASE_URL}videos/project demostration video.mp4`,
   },
   {
     id: 2,
@@ -53,7 +53,7 @@ const projects: Project[] = [
         `${import.meta.env.BASE_URL}icons-correct/tailwindcss.svg`
       ]
     },
-    video: `${import.meta.env.BASE_URL}videos/streamline-website.mkv`,
+    video: `${import.meta.env.BASE_URL}videos/streamline-website.mp4`,
   },
   {
     id: 3,
@@ -102,7 +102,7 @@ const projects: Project[] = [
         `${import.meta.env.BASE_URL}icons/lucidchart.svg`
       ]
     },
-    video: `${import.meta.env.BASE_URL}videos/UX-project.mkv`,
+    video: `${import.meta.env.BASE_URL}videos/UX-project.mp4`,
   },
   {
     id: 5,

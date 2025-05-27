@@ -25,7 +25,7 @@ export const About = () => {
           <div className="space-y-6">
             <h2 className="text-4xl font-bold text-gray-800">About Me</h2>
             <p className="text-gray-600 leading-relaxed">
-              Computer Science student at City, University of London, passionate about software development and technology. Experienced in both front-end and back-end development, with a strong foundation in Java, Python, React, and SQL. Adept at project management, teamwork, and delivering successful IT projects. Currently seeking opportunities to further develop my skills and contribute to impactful projects.
+              Computer Science student at City, University of London, passionate about software development and technology. Experienced in both front-end and back-end development, with a strong foundation in Java, Python, React, and SQL. Confident at project management, teamwork, and delivering successful IT projects. Currently seeking opportunities to further develop my skills and contribute to impactful projects.
             </p>
             <div className="space-y-4">
               <div className="flex items-center space-x-3">

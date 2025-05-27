@@ -32,7 +32,7 @@ export const Introduction = () => {
               Computer Science Student & Software Developer
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
-              Computer Science student at City, University of London, passionate about software development and technology. Experienced in both front-end and back-end development, with a strong foundation in Java, Python, C++, PHP, React, and SQL. Adept at project management, teamwork, and delivering successful IT projects. Currently seeking opportunities to further develop my skills and contribute to impactful projects.
+              Computer Science student at City, University of London, passionate about software development and technology. Experienced in both front-end and back-end development, with a strong foundation in Java, Python, C++, PHP, React, and SQL. Confident at project management, teamwork, and delivering successful IT projects. Currently seeking opportunities to further develop my skills and contribute to impactful projects.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
               <div 

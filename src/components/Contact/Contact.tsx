@@ -55,10 +55,10 @@ export const Contact = () => {
               </div>
               <div>
                 <h3 className="font-semibold text-gray-900 dark:text-white mb-1">
-                  CV Request
+                  Request my Services
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300">
-                  Fill out the form to request my CV
+                  Fill out the form to request my services
                 </p>
               </div>
             </div>
@@ -73,6 +73,9 @@ export const Contact = () => {
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300">
                   London, United Kingdom
+                </p>
+                <p className="text-gray-600 dark:text-gray-300">
+                  Willing to relocate / work remotely
                 </p>
               </div>
             </div>

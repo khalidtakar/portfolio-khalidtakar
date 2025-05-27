@@ -88,13 +88,13 @@ export const Skills = () => {
             <div>
               <h4 className="font-medium text-gray-900 dark:text-white mb-2">Project Work</h4>
               <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-1">
-                <li>Organizing and Planning Meetings</li>
+                <li>Organising and Planning Meetings</li>
                 <li>Providing Tactical Solutions</li>
                 <li>Taking Detailed Meeting Notes</li>
               </ul>
             </div>
             <div>
-              <h4 className="font-medium text-gray-900 dark:text-white mb-2">Software & Tools</h4>
+              <h4 className="font-medium text-gray-900 dark:text-white mb-2">Softwares & Skills</h4>
               <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-1">
                 <li>Adobe Photoshop (CS6) and Microsoft Office Skills</li>
                 <li>Retail Sales</li>
