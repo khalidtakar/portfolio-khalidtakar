@@ -1,0 +1,5 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="48" height="48" rx="12" fill="#3776AB"/>
+  <text x="24" y="30" text-anchor="middle" font-size="18" fill="white" font-family="Arial">Py</text>
+  <path d="M12 24c0-6 6-12 12-12s12 6 12 12-6 12-12 12" stroke="#FFD43B" stroke-width="2" fill="none"/>
+</svg> 
