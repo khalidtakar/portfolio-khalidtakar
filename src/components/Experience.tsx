@@ -15,7 +15,7 @@ const experiences = [
     ]
   },
   {
-    title: 'Math's Tutor (Paid Employment)',
+    title: 'Maths Tutor (Employment)',
     company: 'Fine Tutors',
     period: 'Oct 2022 – Jul 2024 / Nov 2019 - Mar 2020',
     location: 'London',
@@ -26,7 +26,7 @@ const experiences = [
     ]
   },
   {
-    title: 'Sales Assistant (Paid Employment)',
+    title: 'Sales Assistant (Employment)',
     company: 'JD Sports',
     period: 'Jun 2022 - Oct 2022',
     location: 'London',
@@ -36,7 +36,7 @@ const experiences = [
     ]
   },
   {
-    title: 'Math's Tutor (Paid Employment)',
+    title: 'Maths Tutor (Employment)',
     company: 'Iftin Care',
     period: 'Sep 2021 - Jun 2022',
     location: 'London',

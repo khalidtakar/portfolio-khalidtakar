@@ -48,7 +48,7 @@ const experiences = [
   },
   {
     id: 5,
-    title: "Shadow Graphic Designer (Work Experience)",
+    title: "Shadow Graphic Designer",
     company: "IMAX Design Ltd | The Whitechapel Centre, London",
     period: "Jun 2019 - Jul 2019",
     description: [
@@ -58,7 +58,7 @@ const experiences = [
   },
   {
     id: 6,
-    title: "Administrative Assistant (Work Experience)",
+    title: "Administrative Assistant",
     company: "Ersan & Co Solicitors Ltd | London",
     period: "Jun 2018 - Jul 2018",
     description: [
@@ -86,7 +86,7 @@ export const Timeline = () => {
             <div className="flex flex-col items-center my-8">
               <div className="relative w-full flex items-center justify-center mb-2">
                 <div className="absolute left-1/2 transform -translate-x-1/2 w-2/3 h-2 bg-gray-300 rounded shadow-md z-10" />
-                <span className="relative z-20 bg-gray-100 dark:bg-gray-800 px-4 py-1 rounded-full text-gray-700 dark:text-gray-200 font-bold shadow">Paid Employment</span>
+                <span className="relative z-20 bg-gray-100 dark:bg-gray-800 px-4 py-1 rounded-full text-gray-700 dark:text-gray-200 font-bold shadow">Employment</span>
               </div>
             </div>
             {experiences.map((exp, index) => (

@@ -84,21 +84,31 @@ export const Skills = () => {
           className="mt-12 bg-gray-50 dark:bg-gray-700 rounded-lg p-6 shadow-lg"
         >
           <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">Additional Skills</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div>
               <h4 className="font-medium text-gray-900 dark:text-white mb-2">Project Work</h4>
               <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-1">
-                <li>Organising and Planning Meetings</li>
-                <li>Providing Tactical Solutions</li>
-                <li>Taking Detailed Meeting Notes</li>
+                <li>Coordinated and facilitated meetings</li>
+                <li>Developed tactical team solutions</li>
+                <li>Documented notes and action items</li>
+                <li>Managed project timelines and deliverables</li>
               </ul>
             </div>
             <div>
-              <h4 className="font-medium text-gray-900 dark:text-white mb-2">Softwares & Skills</h4>
+              <h4 className="font-medium text-gray-900 dark:text-white mb-2">Software & Technical Skills</h4>
               <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-1">
-                <li>Adobe Photoshop (CS6) and Microsoft Office Skills</li>
-                <li>Retail Sales</li>
-                <li>Communication & Teamwork</li>
+                <li>Adobe Photoshop (CS6) for basic design</li>
+                <li>Figma, Miro, Lucidchart, Motiff for UX design</li>
+                <li>Microsoft Office (Word, Excel, PowerPoint)</li>
+                <li>Experience in sales and customer service</li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-medium text-gray-900 dark:text-white mb-2">Interpersonal Skills</h4>
+              <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-1">
+                <li>Effective communication with technical and non-technical teams</li>
+                <li>Collaborative teamwork in agile environments</li>
+                <li>Problem-solving through critical thinking</li>
               </ul>
             </div>
           </div>
