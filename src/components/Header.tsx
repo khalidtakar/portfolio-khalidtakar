@@ -8,7 +8,7 @@ export const Header = () => {
 
   return (
     <>
-      <header className="bg-white dark:bg-gray-800 shadow-sm fixed w-full z-10 transition-colors">
+      <header className="bg-white dark:bg-gray-800 shadow-sm fixed w-full z-30 transition-colors">
         <div className="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8 flex justify-between items-center">
           <h1 className="text-3xl font-bold text-gray-900 dark:text-white transition-colors">
             Khalid Takar
