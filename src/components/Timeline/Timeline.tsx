@@ -5,7 +5,7 @@ import { useInView } from 'react-intersection-observer';
 const experiences = [
   {
     id: 1,
-    title: "IT Project Analyst (Internship)",
+    title: "IT Project Analyst (Placement)",
     company: "Marsh",
     period: "Sep 2023 — Sep 2024",
     description: [

@@ -132,7 +132,7 @@ export const ContactForm = () => {
         {errors.message && <p className="mt-1 text-sm text-red-500">{errors.message}</p>}
       </div>
 
-      <a href={`${import.meta.env.BASE_URL}cv/Khalid CV Graduate.pdf`} className="block w-full py-3 px-6 rounded-lg text-white font-medium bg-green-600 hover:bg-green-700 text-center transition-colors" download>
+      <a href={`${import.meta.env.BASE_URL}cv/Khalid Graduate CV.pdf`} className="block w-full py-3 px-6 rounded-lg text-white font-medium bg-green-600 hover:bg-green-700 text-center transition-colors" download>
         Download CV
       </a>
       <a href="https://www.linkedin.com/in/khalid-takar-272097213" target="_blank" rel="noopener noreferrer" className="block w-full py-3 px-6 rounded-lg text-white font-medium bg-violet-700 hover:bg-violet-800 text-center transition-colors mt-2 flex items-center justify-center gap-2">

@@ -4,7 +4,7 @@ import { useInView } from 'react-intersection-observer';
 import { MapPin, Phone, Mail, GraduationCap } from 'lucide-react';
 
 // Helper to check if asset exists (for demonstration, use a variable)
-const cvExists = false; // Set to true when /Khalid_Takar_CV.pdf is present
+const cvExists = true; // Set to true when /cv/Khalid Graduate CV.pdf is present
 
 export const About = () => {
   const [ref, inView] = useInView({
@@ -25,7 +25,7 @@ export const About = () => {
           <div className="space-y-6">
             <h2 className="text-4xl font-bold text-gray-800">About Me</h2>
             <p className="text-gray-600 leading-relaxed">
-              Computer Science student at City, University of London, passionate about software development and technology. Experienced in both front-end and back-end development, with a strong foundation in Java, Python, React, and SQL. Confident at project management, teamwork, and delivering successful IT projects. Currently seeking opportunities to further develop my skills and contribute to impactful projects.
+              Computer Science Graduate at City, University of London, passionate about software development and technology. Experienced in both front-end and back-end development, with a strong foundation in Java, Python, React, and SQL. Confident at project management, teamwork, and delivering successful IT projects. Currently seeking opportunities to further develop my skills and contribute to impactful projects.
             </p>
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
@@ -42,7 +42,7 @@ export const About = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <GraduationCap className="text-blue-600" size={20} />
-                <span className="text-gray-600">BSc Computer Science with Placement (Expected 2025)</span>
+                <span className="text-gray-600">BSc Computer Science with Placement (2025)</span>
               </div>
               <div className="flex space-x-4 pt-2">
                 <a href="https://www.linkedin.com/in/khalid-takar-272097213" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
@@ -54,13 +54,11 @@ export const About = () => {
               </div>
               <div className="pt-4">
                 {cvExists ? (
-                  <a href="/Khalid_Takar_CV.pdf" download className="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors">
+                  <a href="/cv/Khalid Graduate CV.pdf" download className="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors">
                     Download CV
                   </a>
                 ) : (
-                  <div className="w-48 h-12 flex items-center justify-center bg-gray-200 rounded text-gray-500">
-                    CV file goes here
-                  </div>
+                  <span className="text-gray-500">CV file goes here</span>
                 )}
               </div>
             </div>

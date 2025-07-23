@@ -5,7 +5,7 @@ import { Briefcase } from 'lucide-react';
 
 const experiences = [
   {
-    title: 'IT Project Analyst (Internship)',
+    title: 'IT Project Analyst (Placement)',
     company: 'Marsh',
     period: 'Sep 2023 – Sep 2024',
     location: 'London',

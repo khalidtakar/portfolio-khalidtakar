@@ -8,7 +8,7 @@ const education = [
     school: "City, University of London",
     degree: "BSc Computer Science with Placement",
     period: "Sept 2021 – Aug 2025",
-    details: "Expected Grade: 2:1",
+    details: "Achieved Grade: 2:1",
     subjects: ["Java", "Python", "React", "SQL", "C++", "Haskell", "PHP" ,"Theory of computation", "Systems architecture", "Project Management", "Software Engineering"],
     awards: ["Dean's Award for Professional Experience (DAPE), Mar 2025"],
     certifications: ["Python Basic - HackerRank, Feb 2023 (ID: 11F86A25A56C)", "Duke of Edinburgh's Award - Bronze Level, Mar 2019"],

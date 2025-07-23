@@ -37,7 +37,7 @@ export const Education = () => {
             <div className="space-y-4">
               <div>
                 <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">Bachelor of Science (BSc), Computer Science with Placement</h4>
-                <p className="text-gray-600 dark:text-gray-300">Expected Grade: 2:1</p>
+                <p className="text-gray-600 dark:text-gray-300">Achieved Grade: 2:1</p>
               </div>
             </div>
           </div>
